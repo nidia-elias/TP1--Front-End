@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Declaración del tipo de documento HTML5 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Título que aparece en la pestaña del navegador -->
-    <title>Portada Principal</title>
+    <title>Nuestro Nombre</title>
+    <link rel="stylesheet" href="css/tarjeta.css">
 </head>
 <body>
-    <!-- Encabezado de la página -->
-    <header>
-        <h1>Bienvenido a Mi Sitio Web</h1>
-    </header>
 
-    <!-- Navegación principal para enlazar las secciones -->
     <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#presentacion">Acerca de Nosotros</a></li>
-            <li><a href="#bitacora">Bitácora</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
+        <a href="index.html">Volver al inicio</a>
     </nav>
 
-    <!-- Contenido principal y único de esta página -->
-    <main>
-        
-        <p>Lourdes</p>
+    <section class="tarjeta">
 
-    </main>
-    
-    <!-- Pie de página con información legal o de contacto -->
-    <footer>
-        <p></p>
-    </footer>
+        <img src="perfil.png" alt="Foto de NOMBRE">
+
+        <h1>Nuestro Nombre</h1>
+
+        <p><strong>Ciudad:</strong> Ciudad</p>
+
+        <p><strong>Edad:</strong> xx años</p>
+
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Diseño</li>
+            <li>Trabajo en equipo</li>
+        </ul>
+
+        <h2>Películas favoritas</h2>
+        <ol>
+            <li>Peli 1</li>
+            <li>Peli 2</li>
+            <li>Peli 3</li>
+        </ol>
+
+        <h2>Discos favoritos</h2>
+        <ol>
+            <li>Disco1</li>
+            <li>Disco 2</li>
+            <li>Disco 3</li>
+        </ol>
+
+        <button onclick="mostrarMensaje()">Ver mensaje</button>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
