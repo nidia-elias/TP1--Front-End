@@ -4,20 +4,21 @@
     <!-- Declaración del tipo de documento HTML5 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Título que aparece en la pestaña del navegador -->
     <title>Portada Principal</title>
 </head>
 <body>
     <!-- Encabezado de la página -->
     <header>
-        <h1>Bienvenido a Mi Sitio Web</h1>
+        <h1>Bienvenido a nuestro sitio web</h1>
     </header>
 
     <!-- Navegación principal para enlazar las secciones -->
     <nav>
         <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="#presentacion">Acerca de Nosotros</a></li>
+            <li><a href="#presentacion">Acerca de Nosotras</a></li>
             <li><a href="#bitacora">Bitácora</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
@@ -32,25 +33,46 @@
         </section>
 
         <section id="presentacion">
-            <h2>Acerca de nosotros</h2>
+            <h2>Acerca de nosotras</h2>
             
             <!-- Contenedor para las tres tarjetas solicitadas -->
             <div class="cards-container">
-                <ul>
-                    <li><a href="lourdes.html">Lourdes Millicay</a></li>
-                    <li><a href="maiten.html">Maitén Klaus</a></li>
-                    <li><a href="nidia.html">Nidia Elías</a></li>
-                </ul>
+                
+                <!-- Tarjeta 1 -->
+                <div class="card">
+                    <img src="img/perfil.png" alt="Imagen representativa 1">
+                    <p>Lourdes</p>
+                    <a href="lourdes.html"><button>Más Información</button></a>
+                </div>
+                
+                <!-- Tarjeta 2 -->
+                <div class="card">
+                    <img src="img/perfil.png" alt="Imagen representativa 2">
+                    <p>Maitén</p>
+                    <a href="maiten.html"><button>Más Información</button></a>
+                </div>
+                
+                <!-- Tarjeta 3 -->
+                <div class="card">
+                    <img src="img/grisino.jpg" alt="Img-nidia">
+                    <p>Nidia Elías</p>
+                    <a href="nidia.html"><button>Más Información</button></a>
+                </div>
+                
             </div>
             
 
         <section id="bitacora">
             <h2>Bitácora</h2>
-            <p></p>
+            <p>En esta sección debemos poner:</p>
+            <p>Decisiones de diseño tomadas por el equipo. </p>
+            <p>Dificultades encontradas y cómo se resolvieron.</p> 
+            <p>Cambios importantes realizados durante la implementación.</p>
+
         </section>
 
         <section id="contacto">
-            <h2>Bitácora</h2>
+            <h2>Contacto</h2>
             <p></p>
         </section>
 
@@ -60,5 +82,7 @@
     <footer>
         <p></p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
