@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Declaración del tipo de documento HTML5 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Título que aparece en la pestaña del navegador -->
-    <title>Portada Principal</title>
+    <title>Maitén Klaus</title>
+    <link rel="stylesheet" href="css/tarjeta.css">
 </head>
 <body>
-    <!-- Encabezado de la página -->
-    <header>
-        <h1>Bienvenido a Mi Sitio Web</h1>
-    </header>
 
-    <!-- Navegación principal para enlazar las secciones -->
     <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#presentacion">Acerca de Nosotros</a></li>
-            <li><a href="#bitacora">Bitácora</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
+        <a href="index.html">Volver al inicio</a>
     </nav>
 
-    <!-- Contenido principal y único de esta página -->
-    <main>
-        
-        <p>Maitén</p>
+    <section class="tarjeta">
 
-    </main>
-    
-    <!-- Pie de página con información legal o de contacto -->
-    <footer>
-        <p></p>
-    </footer>
+        <img src="perfil.png" alt="Foto de Maitén Klaus">
+
+        <h1>Maitén Klaus</h1>
+
+        <p><strong>Ciudad:</strong> Buenos Aires</p>
+
+        <p><strong>Edad:</strong> 28 años</p>
+
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Python</li>
+            <li>Tejer</li>
+            <li>Arquería</li>
+            <li>Figma</li>
+        </ul>
+
+        <h2>Películas favoritas</h2>
+        <ol>
+            <li>El Conjuro</li>
+            <li>El diablo viste a la moda</li>
+            <li>Kuroko no Basket</li>
+        </ol>
+
+        <h2>Discos favoritos</h2>
+        <ol>
+            <li>Made - Big Bang</li>
+            <li>One of a Kind  - G-Dragon</li>
+            <li>Another Dimension - TOP</li>
+        </ol>
+
+        <button onclick="mostrarMensaje()">Ver mensaje</button>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
