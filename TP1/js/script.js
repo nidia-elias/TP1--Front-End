@@ -36,3 +36,38 @@ function cambiarTema() {
 
 }
 
+//footer dinámico automático
+
+const footer = document.getElementById("footer-text");
+
+if (footer) {
+
+    const mensajes = [
+
+        "© 2026 PawCode | Proyecto Web Grupal",
+
+        "Gracias por visitar nuestro sitio",
+
+        "PawCode desarrollando creatividad y código",
+
+        "HTML, CSS y JavaScript en acción",
+
+        "PawCode Team"
+
+    ];
+
+    let indice = 0;
+
+    setInterval(() => {
+
+        indice++;
+
+        if (indice >= mensajes.length) {
+            indice = 0;
+        }
+
+        footer.innerText = mensajes[indice];
+
+    }, 3000);
+
+}
