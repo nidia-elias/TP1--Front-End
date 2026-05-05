@@ -60,13 +60,14 @@ Ejemplos:
 “¡Buenos días! Somos PawCode”
 “¡Buenas tardes! Somos PawCode”
 “¡Buenas noches! Somos PawCode”
-ACA PONEMOS CAPUTARAS
+Captura de pantalla del mensaje de bienvenida:
 https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-1.png?raw=true
+
 Portada Principal - Footer dinámico
 Ubicación: index.html
 Función:El mensaje del footer cambia automáticamente cada algunos segundos mostrando distintos textos relacionados con el proyecto.
 
-ACA PONEMOS CAPTURAS DEL FOOTER
+Capturas de pantalla de las variaciones del footer animado:
 https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-footer.png?raw=true
 https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-footer2.png?raw=true
 https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-footer3.png?raw=true
@@ -77,7 +78,7 @@ Función:Muestra un alert personalizado utilizando el nombre del integrante.
 https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert1.png?raw=true
 https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert2.png?raw=true
 https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert3.png?raw=true
-ACA PONEMOS CAPTURAS
+
 
 Tarjetas - Cambio de tema
 Ubicación: tarjetas individuales (lourdes.html, maiten.html, nidia.html)
@@ -85,7 +86,6 @@ Función:Permite alternar entre tema claro y oscuro usando JavaScript y clases C
 https://github.com/nidia-elias/TP1--Front-End/blob/main/modo-claro.png?raw=true
 https://github.com/nidia-elias/TP1--Front-End/blob/main/modo-oscuro.png?raw=true
 
-ACA PONEMOS CAPTURAS
 
 # Enlace al Proyecto Desplegado 
 
