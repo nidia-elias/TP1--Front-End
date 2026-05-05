@@ -83,9 +83,7 @@ https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert3.png?raw=t
 Tarjetas - Cambio de tema
 Ubicación: tarjetas individuales (lourdes.html, maiten.html, nidia.html)
 Función:Permite alternar entre tema claro y oscuro usando JavaScript y clases CSS.
-https://github.com/nidia-elias/TP1--Front-End/blob/main/modo-claro.png?raw=true
-https://github.com/nidia-elias/TP1--Front-End/blob/main/modo-oscuro.png?raw=true
-
+![Modo claro](https://github.com/nidia-elias/TP1--Front-End/blob/main/modo-claro.png?raw=true)
 
 # Enlace al Proyecto Desplegado 
 
