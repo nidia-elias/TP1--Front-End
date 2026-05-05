@@ -13,9 +13,12 @@ El objetivo principal fue crear un sitio web moderno, responsivo e interactivo q
 Nuestra página incluye: una portada que funciona para presentarnos, tarjetas individuales, un menú de navegación entre secciones, diseño responsive, sección de bitácora para documentar nuestro proceso de desarrollo y también implementamos funcionalidades con JavaScript.
 
 # Integrantes 
-Lourdes Millicay ->https://github.com/lourdes-millicay
-Maitén Klaus ->https://github.com/MaiKlaus
-Nidia Elías ->https://github.com/nidia-elias
+Lourdes Millicay ->https://github.com/lourdes-millicay  
+
+Maitén Klaus ->https://github.com/MaiKlaus  
+
+Nidia Elías ->https://github.com/nidia-elias  
+
 
 # Tecnologías Utilizadas 
 HTML5
