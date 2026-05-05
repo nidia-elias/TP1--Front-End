@@ -1,5 +1,8 @@
-/* Google Fonts */
+/*google fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* general*/
 
 *{
     margin: 0;
@@ -9,138 +12,169 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #f8d7ff, #dbeafe);
+    background: #f0f2f5;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 40px;
+    color: #333;
 }
 
-/* TARJETA */
-
-.tarjeta{
-    background-color: white;
-    width: 100%;
-    max-width: 420px;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    text-align: center;
-}
-
-/* FOTO */
-
-.tarjeta img{
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #e879f9;
-    margin-bottom: 20px;
-}
-
-/* TITULOS */
-
-.tarjeta h1{
-    color: #7e22ce;
-    margin-bottom: 15px;
-    font-size: 2rem;
-}
-
-.tarjeta h2{
-    color: #9333ea;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-
-/* TEXTOS */
-
-.tarjeta p{
-    margin: 8px 0;
-    color: #444;
-}
-
-.tarjeta ul,
-.tarjeta ol{
-    text-align: left;
-    margin-left: 25px;
-    color: #555;
-}
-
-.tarjeta li{
-    margin-bottom: 6px;
-}
-
-/* BOTON */
-
-button{
-    margin-top: 25px;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 10px;
-    background-color: #c084fc;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover{
-    background-color: #a855f7;
-    transform: scale(1.05);
-}
-
-/* NAV */
+/* nav*/
 
 nav{
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 20px;
 }
 
 nav a{
     text-decoration: none;
-    background-color: white;
-    color: #7e22ce;
-    padding: 10px 15px;
-    border-radius: 10px;
+    background: white;
+    color: #2c3e50;
+    padding: 12px 18px;
+    border-radius: 30px;
     font-weight: 600;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
 }
 
-/* RESPONSIVE */
+nav a:hover{
+    background: #3498db;
+    color: white;
+}
+
+/* tarjeta*/
+
+.tarjeta{
+    background: white;
+    width: 100%;
+    max-width: 550px;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: 0.4s;
+}
+
+/* EFECTO HOVER */
+
+.tarjeta:hover{
+    transform: translateY(-5px);
+}
+
+/* fotos*/
+
+.tarjeta img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+    margin-bottom: 20px;
+}
+
+/* títulos*/
+
+.tarjeta h1{
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+}
+
+.tarjeta h2{
+    color: #3498db;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+/* bloques*/
+
+.bloque{
+    background: #f8fafc;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.bloque ul,
+.bloque ol{
+    margin-left: 20px;
+}
+
+.bloque li{
+    margin-bottom: 8px;
+}
+
+/* botones*/
+
+.botones{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+button{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 30px;
+    background: #3498db;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #2c3e50;
+    transform: scale(1.05);
+}
+
+/*Tema oscuro*/
+
+.dark-mode{
+    background: #1e293b;
+    color: white;
+}
+
+.dark-mode .bloque{
+    background: #334155;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode p,
+.dark-mode li{
+    color: white;
+}
+
+/* Responsive*/
 
 @media (max-width: 400px){
 
-    .tarjeta{
+    body{
         padding: 20px;
     }
 
+    .tarjeta{
+        padding: 25px;
+    }
+
     .tarjeta h1{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .tarjeta img{
-        width: 110px;
-        height: 110px;
+        width: 120px;
+        height: 120px;
     }
 
-}
-
-@media (min-width: 900px){
-
-    .tarjeta{
-        max-width: 500px;
-    }
-
-}
-
-@media (min-width: 1200px){
-
-    .tarjeta{
-        max-width: 550px;
+    .botones{
+        flex-direction: column;
     }
 
 }

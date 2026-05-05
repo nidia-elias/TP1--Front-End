@@ -1,54 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Nidia</title>
+
     <link rel="stylesheet" href="css/tarjeta.css">
 </head>
+
 <body>
 
+    <!--Nav-->
     <nav>
-        <a href="index.html">Volver al inicio</a>
+        <a href="index.html">← Volver al inicio</a>
     </nav>
 
-    <section class="tarjeta">
+    <!--Tarjeta-->
+    <section class="tarjeta" id="tarjeta">
 
         <img src="img/grisino.jpg" alt="Foto de Nidia">
 
-        <h1>Nidia</h1>
+        <h1 id="nombre">Nidia</h1>
 
         <p><strong>Ciudad:</strong> Mar de Ajó</p>
 
         <p><strong>Edad:</strong> 34 años</p>
 
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Diseño</li>
-            <li>Trabajo en equipo</li>
-        </ul>
+        <!--Habilidades-->
+        <div class="bloque">
 
-        <h2>Películas favoritas</h2>
-        <ol>
-            <li>Peli 1</li>
-            <li>Peli 2</li>
-            <li>Peli 3</li>
-        </ol>
+            <h2>Habilidades</h2>
 
-        <h2>Discos favoritos</h2>
-        <ol>
-            <li>Disco1</li>
-            <li>Disco 2</li>
-            <li>Disco 3</li>
-        </ol>
+            <ul id="habilidades">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Enseñar</li>
+                <li>Trabajo en equipo</li>
+            </ul>
 
-        <button onclick="mostrarMensaje()">Ver mensaje</button>
+        </div>
+
+        <!--Películas-->
+        <div class="bloque">
+
+            <h2>Películas favoritas</h2>
+
+            <ol>
+                <li>Aladdin</li>
+                <li>Los juegos del hambre</li>
+                <li>Harry Potter</li>
+            </ol>
+
+        </div>
+
+        <!--Discos-->
+        <div class="bloque">
+
+            <h2>Discos favoritos</h2>
+
+            <ol>
+                <li>El futuro no existe - Jósean Log</li>
+                <li>Me gustas tanto - Miranda</li>
+                <li>Eterno Agosto - Álvaro Soler</li>
+            </ol>
+
+        </div>
+
+        <!--Botones-->
+        <div class="botones">
+
+            <button onclick="mostrarMensaje()">
+                Mensaje
+            </button>
+
+            <button onclick="cambiarTema()">
+                Cambiar tema
+            </button>
+
+        </div>
 
     </section>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>

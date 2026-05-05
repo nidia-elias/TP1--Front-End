@@ -1,54 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maitén</title>
+
+    <title>Maitén Klaus</title>
+
     <link rel="stylesheet" href="css/tarjeta.css">
 </head>
+
 <body>
 
+    <!--Nav-->
     <nav>
-        <a href="index.html">Volver al inicio</a>
+        <a href="index.html">← Volver al inicio</a>
     </nav>
 
-    <section class="tarjeta">
+    <!--Tarjeta-->
+    <section class="tarjeta" id="tarjeta">
 
-        <img src="img/perfil.png" alt="Foto de NOMBRE">
+        <img src="img/maze.png" alt="Maze, el gato de Maitén Klaus">
 
-        <h1>Maitén</h1>
+        <h1 id="nombre">Maitén Klaus</h1>
 
-        <p><strong>Ciudad:</strong> Ciudad</p>
+        <p><strong>Ciudad:</strong> Buenos Aires</p>
 
-        <p><strong>Edad:</strong> xx años</p>
+        <p><strong>Edad:</strong> 28 años</p>
 
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Diseño</li>
-            <li>Trabajo en equipo</li>
-        </ul>
+        <!--Habilidades-->
+        <div class="bloque">
 
-        <h2>Películas favoritas</h2>
-        <ol>
-            <li>Peli 1</li>
-            <li>Peli 2</li>
-            <li>Peli 3</li>
-        </ol>
+            <h2>Habilidades</h2>
 
-        <h2>Discos favoritos</h2>
-        <ol>
-            <li>Disco1</li>
-            <li>Disco 2</li>
-            <li>Disco 3</li>
-        </ol>
+            <ul id="habilidades">
+                <li>Python</li>
+                <li>Tejer</li>
+                <li>Arquería</li>
+                <li>Figma</li>
+            </ul>
 
-        <button onclick="mostrarMensaje()">Ver mensaje</button>
+        </div>
+
+        <!--Películas-->
+        <div class="bloque">
+
+            <h2>Películas favoritas</h2>
+
+            <ol>
+                <li>El Conjuro</li>
+                <li>El diablo viste a la moda</li>
+                <li>Kuroko no Basket</li>
+            </ol>
+
+        </div>
+
+        <!--Discos-->
+        <div class="bloque">
+
+            <h2>Discos favoritos</h2>
+
+            <ol>
+                <li>Made - Big Bang</li>
+                <li>One of a Kind - G-Dragon</li>
+                <li>Another Dimension - TOP</li>
+            </ol>
+
+        </div>
+
+        <!--Botones-->
+        <div class="botones">
+
+            <button onclick="mostrarMensaje()">
+                Mensaje
+            </button>
+
+            <button onclick="cambiarTema()">
+                Cambiar tema
+            </button>
+
+        </div>
 
     </section>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>

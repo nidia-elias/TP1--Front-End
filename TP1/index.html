@@ -11,8 +11,20 @@
 <body>
     <!-- Encabezado de la página -->
     <header>
-        <h1>Bienvenido a nuestro sitio web</h1>
-    </header>
+
+    <div class="header-contenido">
+
+        <h1>Somos PawCode</h1>
+
+        <p class="descripcion-header">
+            Somos un equipo de estudiantes apasionadas por el diseño y el desarrollo web.
+            Este proyecto fue creado con el objetivo de aplicar conocimientos de HTML,
+            CSS y JavaScript, desarrollando un sitio moderno, responsivo e interactivo.
+        </p>
+
+    </div>
+
+</header>
 
     <!-- Navegación principal para enlazar las secciones -->
     <nav>
@@ -40,14 +52,14 @@
                 
                 <!-- Tarjeta 1 -->
                 <div class="card">
-                    <img src="img/perfil.png" alt="Imagen representativa 1">
+                    <img src="img/miel.jpeg" alt="Img-lourdes">
                     <p>Lourdes</p>
                     <a href="lourdes.html"><button>Más Información</button></a>
                 </div>
                 
                 <!-- Tarjeta 2 -->
                 <div class="card">
-                    <img src="img/perfil.png" alt="Imagen representativa 2">
+                    <img src="img/maze.png" alt="Img-maiten">
                     <p>Maitén</p>
                     <a href="maiten.html"><button>Más Información</button></a>
                 </div>
@@ -63,12 +75,84 @@
             
 
         <section id="bitacora">
-            <h2>Bitácora</h2>
-            <p>En esta sección debemos poner:</p>
-            <p>Decisiones de diseño tomadas por el equipo. </p>
-            <p>Dificultades encontradas y cómo se resolvieron.</p> 
-            <p>Cambios importantes realizados durante la implementación.</p>
+                    <!-- En esta sección debemos poner:
+            Decisiones de diseño tomadas por el equipo.
+            Dificultades encontradas y cómo se resolvieron.
+            Cambios importantes realizados durante la implementación.
+            -->
+            <div class="bitacora-container">
 
+        <!-- primer bloque -->
+        <article class="bitacora-card">
+
+            <h3>Decisiones de diseño</h3>
+
+            <p>
+                El equipo decidió utilizar una estética moderna y minimalista,
+                combinando colores suaves con tonos azules para generar una
+                interfaz clara, agradable y fácil de navegar.
+            </p>
+
+            <p>
+                También se eligió trabajar con tarjetas individuales para
+                organizar mejor la información de cada integrante y mantener
+                una estructura uniforme en todo el sitio web.
+            </p>
+
+            <p>
+                Se implementó un menú de navegación fijo para facilitar el acceso
+                rápido a las distintas secciones del proyecto.
+            </p>
+
+        </article>
+
+        <!-- segundo bloque-->
+        <article class="bitacora-card">
+
+            <h3>Dificultades encontradas</h3>
+
+            <p>
+                Una de las principales dificultades fue adaptar correctamente
+                el diseño responsive para diferentes tamaños de pantalla.
+            </p>
+
+            <p>
+                También surgieron problemas al vincular las páginas individuales
+                de cada integrante y organizar correctamente la estructura
+                de carpetas del proyecto.
+            </p>
+
+            <p>
+                Estos problemas se resolvieron revisando las rutas de navegación,
+                aplicando media queries en CSS y reorganizando los archivos
+                siguiendo buenas prácticas de desarrollo web.
+            </p>
+
+        </article>
+
+        <!-- tercer bloque -->
+        <article class="bitacora-card">
+
+            <h3>Cambios importantes</h3>
+
+            <p>
+                Durante el desarrollo se realizaron mejoras visuales en las tarjetas,
+                botones y secciones principales del sitio.
+            </p>
+
+            <p>
+                Además, se agregaron efectos hover, sombras y transiciones para
+                mejorar la experiencia del usuario y darle mayor dinamismo a la página.
+            </p>
+
+            <p>
+                Finalmente, se implementó JavaScript para mostrar mensajes dinámicos
+                y personalizar el saludo principal según el horario del usuario.
+            </p>
+
+        </article>
+
+    </div>
         </section>
 
         <section id="contacto">
@@ -83,6 +167,6 @@
         <p></p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
