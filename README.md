@@ -61,29 +61,33 @@ Ejemplos:
 “¡Buenas tardes! Somos PawCode”
 “¡Buenas noches! Somos PawCode”
 Captura de pantalla del mensaje de bienvenida:
-https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-1.png?raw=true
+![Mensaje bienvenida segun hora](https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-1.png?raw=true)
 
 Portada Principal - Footer dinámico
 Ubicación: index.html
 Función:El mensaje del footer cambia automáticamente cada algunos segundos mostrando distintos textos relacionados con el proyecto.
 
 Capturas de pantalla de las variaciones del footer animado:
-https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-footer.png?raw=true
-https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-footer2.png?raw=true
-https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-footer3.png?raw=true
+![Mensaje 1](https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-footer.png?raw=true)
+![Mensaje 2](https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-footer2.png?raw=true)
+![Mensaje 3](https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-footer3.png?raw=true)
 
 Tarjetas - Mensaje personalizado
 Ubicación: tarjetas individuales (lourdes.html, maiten.html, nidia.html)
 Función:Muestra un alert personalizado utilizando el nombre del integrante.
-https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert1.png?raw=true
-https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert2.png?raw=true
-https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert3.png?raw=true
+
+Capturas mensajes personalizados: 
+![Mensaje Lourdes](https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert1.png?raw=true)
+![Mensaje Maiten](https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert2.png?raw=true)
+![Mensaje Nidia](https://github.com/nidia-elias/TP1--Front-End/blob/main/captura-alert3.png?raw=true)
+
 
 
 Tarjetas - Cambio de tema
 Ubicación: tarjetas individuales (lourdes.html, maiten.html, nidia.html)
 Función:Permite alternar entre tema claro y oscuro usando JavaScript y clases CSS.
 ![Modo claro](https://github.com/nidia-elias/TP1--Front-End/blob/main/modo-claro.png?raw=true)
+![Modo oscuro](https://github.com/nidia-elias/TP1--Front-End/blob/main/modo-oscuro.png?raw=true)
 
 # Enlace al Proyecto Desplegado 
 
